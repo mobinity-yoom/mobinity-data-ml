@@ -9,7 +9,7 @@ import ssl
 context = ssl._create_unverified_context()  # for urlopen verify
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# Naver crawling
+# Naver Crawling
 baseUrl = 'https://search.naver.com/search.naver?where=image&sm=tab_jum&query='
 category = input('category name: ')
 search = input('Word to search: ')
