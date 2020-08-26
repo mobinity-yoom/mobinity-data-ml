@@ -20,11 +20,13 @@ html = urlopen(url, context=context)
 soup = bs(html, "html.parser")
 image = soup.find_all(class_='_img')
 
-baseDir = './data/train/' + category + '/'
+baseDir = './data/' + category
 targetName = search.split()
 targetName = '_'.join(targetName)
-targetDir = baseDir + targetName
+targetDir = baseDir + '/' + targetName
 
+if not os.path.isdir(baseDir):
+    os.mkdir(baseDir)
 if not os.path.isdir(targetDir):
     os.mkdir(targetDir)
 
