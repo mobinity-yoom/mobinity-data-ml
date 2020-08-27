@@ -1,4 +1,5 @@
 data/
+labeling/
 *.log
 .DS_Store
 .vscode
