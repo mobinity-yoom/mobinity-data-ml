@@ -1,0 +1,44 @@
+item {
+  id: 1
+  name: 'book'
+}
+
+item {
+  id: 2
+  name: 'box'
+}
+
+item {
+  id: 3
+  name: 'clothes'
+}
+
+item {
+  id: 4
+  name: 'device'
+}
+
+item {
+  id: 5
+  name: 'envelope'
+}
+
+item {
+  id: 6
+  name: 'furniture'
+}
+
+item {
+  id: 7
+  name: 'gajeon'
+}
+
+item {
+  id: 8
+  name: 'instrument'
+}
+
+item {
+  id: 9
+  name: 'living'
+}
