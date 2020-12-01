@@ -42,6 +42,8 @@ def dict_to_tf_example(data,
   Notice that this function normalizes the bounding box coordinates provided
   by the raw data.
 
+  python3 ./create_tfrecord.py --label_map_path=./data_sample/label_map.pbtxt --data_dir=./data/vol1 --output_dir=./data/
+
   Args:
     data: dict holding PASCAL XML fields for a single image (obtained by
       running dataset_util.recursive_parse_xml_to_dict)
